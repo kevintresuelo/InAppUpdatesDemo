@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Updater</string>
+
+    <string name="update_inprogress_title">Update in progress</string>
+    <string name="update_inprogress_message">An update is already in progress and will be completed shortly.</string>
+    <string name="update_inprogress_ok">Got it</string>
+    <string name="update_notavailable_title">Latest version installed</string>
+    <string name="update_notavailable_message">It seems that you&#8217;re already running the latest available version
+        of this app.
+    </string>
+    <string name="update_notavailable_ok">OK</string>
+    <string name="update_unknown_title">Failed to check for updates</string>
+    <string name="update_unknown_message">An unknown response has been received. Please check your internet connection
+        or try again later.
+    </string>
+    <string name="update_unknown_ok">Got it</string>
+    <string name="update_download_finished">An update has just been downloaded.</string>
+    <string name="update_restart">Restart</string>
+    <string name="update_download_failed">Failed to download an update.</string>
+    <string name="update_retry">Retry</string>
+</resources>
