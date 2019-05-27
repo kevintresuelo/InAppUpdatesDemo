@@ -3,8 +3,8 @@ android:
   components:
     # Uncomment the lines below if you want to
     # use the latest revision of Android SDK Tools
-    # - tools
-    # - platform-tools
+    - tools
+    - platform-tools
 
     # The BuildTools version used by your project
     - build-tools-28.0.3
@@ -20,6 +20,6 @@ licenses:
   - 'android-sdk-license-.+'
   - 'google-gdk-license-.+'
 before_install:
-  - yes | sdkmanager --licenses
+  - yes | sdkmanager "platforms;android-28"
 notifications:
   email: false
