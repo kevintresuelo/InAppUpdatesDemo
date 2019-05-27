@@ -19,3 +19,5 @@ android:
 licenses:
   - 'android-sdk-license-.+'
   - 'google-gdk-license-.+'
+before_install:
+  yes | sdkmanager --licenses
